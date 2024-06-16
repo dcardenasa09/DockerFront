@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.container-data {
+    height: 100vh !important;
+    overflow: auto !important;
+}
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.App {
+    text-align: center;
+    .App-link {
+        color: #61dafb;
+    }
+    .App-logo {
+        height: 40vmin;
+        pointer-events: none;
+    }
+}
+.card {
+    background-color: #efefef !important;
+    border-radius: 20px !important;
+    padding: 16px !important;
+}
+.dashboard {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    justify-content: center;
+    min-height: 100%;
+}
+.alert {
+    left: calc(50% - 350px);
+    min-width: 700px !important;
+    position: fixed;
+    top: 70px;
+    z-index: 999999;
+}
+.react-datepicker-wrapper {
+    width: 100% !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
